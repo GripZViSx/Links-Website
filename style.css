@@ -1,0 +1,67 @@
+/* Import Fonts (Poppins, Oswald)  Poppins in use.*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@700&display=swap');
+
+/* Page Style */
+html, body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50%;
+}
+
+/* Container with buttons Style */
+.container {
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 1px 3px 20px 0px grey
+}
+
+/* Anchor Tag Style */
+a {
+  text-decoration: none;
+  color: black;
+}
+/* All Buttons Style */
+.item {
+  font-family: 'Poppins';
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #9697A1;
+  margin-bottom: 2px;
+  width: 30em;
+  border-radius: 2px;
+  transition: all ease 0.1s;
+}
+
+/* 'LINKS' Style */
+#upl {
+  border-radius: 18px 18px 0px 0px;
+  background-color: #C7C7C7;
+}
+
+/* Important Links Button Style */
+#dpl {
+  background-color: #FF5F71;
+  border-radius: 0px 0px 18px 18px;
+}
+
+
+/* Link Buttons Active Event */
+.home:active, .about:active, .portfolio:active, .contact:active{
+  background-color: #68686D;
+  color: white;
+  scale: 0.9;
+}
+
+/* Important Link Button Event */
+#dpl:active {
+  background-color: #B71717;
+  color: white;
+  scale: 0.9;
+}
+
+/* You can add more styles according to your choice. Please don't remove credits for base code. */
+/* By: GripZViSx or Kulin Soni */
